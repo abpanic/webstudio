@@ -1,13 +1,5 @@
 {
   "git": {
     "deploymentEnabled": false
-  },
-  "builds": [
-    {
-      "use": "@vercel/static-build",
-      "config": {
-        "installCommand": "pnpm i -g pnpm@9.0 && pnpm install"
-      }
-    }
-  ]
+  }
 }
